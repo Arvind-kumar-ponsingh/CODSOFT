@@ -1,0 +1,96 @@
+{
+    "intents":[
+        {
+            "tag": "greetings",
+            "patterns": ["hello","hi","hey","good day!","greetings","what's up?","how are you doing?"],
+            "responses": [
+                "Hello! Welcome to the supermarket.",
+                "Hey there! How can I assist you today?",
+                "Hi! I'm Zenna, your supermarket assistant. How can I help you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye","see you","ciao","goodbye","see you later","I'm leaving","I'm going"],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "See you later. Come back soon!",
+                "Goodbye! If you need anything else, don't hesitate to ask."
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": ["thanks","thank you","thank you so much","appreciate it","great job"],
+            "responses": [
+                "You're welcome! If you need anything else, feel free to ask.",
+                "Happy to help!",
+                "Glad I could assist you!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need assistance",
+                "Can you help me find a product?",
+                "Where can I locate groceries?",
+                "I'm unsure about something, can you assist?"
+            ],
+            "responses": [
+                "Of course, I'm here to help. What do you need assistance with?"
+            ]
+        },
+        {
+            "tag": "product_inquiry",
+            "patterns": [
+                "Do you have apples?",
+                "Is milk in stock?",
+                "Where can I find bread?",
+                "I'm looking for [product_name]",
+                "I need [product_name]"
+            ],
+            "responses": [
+                
+                "We have apples, milk, bread, eggs, toilet paper, chocolate, orange juice, pasta, cheese, and tomatoes available."
+            ]
+        },
+        {
+            "tag": "opening_hours",
+            "patterns": [
+                "What are the opening hours?",
+                "When does the supermarket open/close?",
+                "What time do you close?",
+                "Hours of operation"
+            ],
+            "responses": [
+                "The supermarket is open from 8:00 AM to 10:00 PM every day."
+            ]
+        },
+        {
+            "tag": "sales_promotions",
+            "patterns": [
+                "Are there any sales or promotions?",
+                "Do you have any discounts?",
+                "Any special offers?"
+            ],
+            "responses": [
+                "Yes, we have ongoing sales on snacks, beverages, and cleaning supplies."
+            ]
+        },
+        {
+            "tag": "checkout_assistance",
+            "patterns": [
+                "How do I check out?",
+                "Can you assist me with the checkout?",
+                "Where is the checkout counter?"
+            ],
+            "responses": [
+                "Certainly, I can help you with the checkout process."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What's your name?", "Who are you?"],
+            "responses": ["I'm Zenna, your personal supermarket assistant!"]
+        }
+    ]
+}
